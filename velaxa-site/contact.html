@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Velaxa</title>
+  <meta name="description" content="Book a consultation with Velaxa, send your photos or X-ray, and continue on WhatsApp for hair transplant or dental care in Istanbul.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html" aria-label="Velaxa home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <strong>VELAXA</strong>
+          <span>Hair &amp; Dental Care</span>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="hair-transplant.html">Hair Transplant</a>
+        <a href="dental-implants.html">Dental Care</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html" aria-current="page">Contact</a>
+        <a class="nav-cta" data-whatsapp-link href="contact.html#assessment">WhatsApp Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-grid">
+        <div class="page-hero-copy">
+          <p class="eyebrow">Contact</p>
+          <h1>Book your consultation, choose your treatment, and send your photos or X-ray.</h1>
+          <p class="lead">
+            WhatsApp is the fastest route. If you prefer a form, submit your details below and the site will open a structured WhatsApp message with your information ready to send.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" data-whatsapp-link href="contact.html#assessment">Open WhatsApp</a>
+            <a class="button button-outline" href="#assessment">Use the consultation form</a>
+          </div>
+        </div>
+        <div class="page-hero-media" style="background-image: url('assets/clinic/gallery-interior-detail.jpg');" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="assessment" class="section">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Consultation details</p>
+          <h2 class="section-title">Choose the treatment path and send the right files from the start.</h2>
+          <div class="contact-cards">
+            <article class="contact-card">
+              <h3>WhatsApp</h3>
+              <p>+90 501 036 70 39</p>
+              <p class="small-note">Fastest for first contact, photo review, and next-step clarification.</p>
+            </article>
+            <article class="contact-card">
+              <h3>Email</h3>
+              <p>info@velaxa.com</p>
+              <p class="small-note">Use when you need a written summary or want to send larger files later.</p>
+            </article>
+            <article class="contact-card">
+              <h3>Location</h3>
+              <p>Istanbul, Turkey</p>
+              <p class="small-note">Used as the core treatment base for hair transplant and dental care.</p>
+            </article>
+            <article class="contact-card">
+              <h3>Languages</h3>
+              <p>English, Russian, Romanian</p>
+              <p class="small-note">The intake path is structured to support multilingual consultation.</p>
+            </article>
+          </div>
+
+          <ul class="contact-list">
+            <li>
+              <strong>Hair transplant files</strong>
+              <p>Send front, top, both sides, crown, and donor area photos in clear lighting.</p>
+            </li>
+            <li>
+              <strong>Dental files</strong>
+              <p>Send smile photos, close-up tooth photos, and a panoramic X-ray if you already have one.</p>
+            </li>
+            <li>
+              <strong>Timing</strong>
+              <p>Add the month or date range you are considering so the first reply can be more specific.</p>
+            </li>
+          </ul>
+        </div>
+
+        <form id="assessment-form" class="assessment-form">
+          <label>
+            Full name
+            <input type="text" name="full_name" placeholder="Your name" required>
+          </label>
+          <label>
+            Country
+            <input type="text" name="country" placeholder="Country of residence" required>
+          </label>
+          <label>
+            Preferred language
+            <select name="language" required>
+              <option value="English">English</option>
+              <option value="Russian">Russian</option>
+              <option value="Romanian">Romanian</option>
+            </select>
+          </label>
+          <label>
+            Treatment
+            <select name="treatment" required>
+              <option value="Hair Transplant">Hair Transplant</option>
+              <option value="Dental Implants">Dental Implants</option>
+              <option value="Crowns">Crowns</option>
+              <option value="Hollywood Smile">Hollywood Smile</option>
+            </select>
+          </label>
+          <label>
+            Phone / WhatsApp
+            <input type="text" name="phone" placeholder="Your number" required>
+          </label>
+          <label>
+            Travel timing
+            <input type="text" name="timing" placeholder="Month or preferred dates">
+          </label>
+          <label>
+            Case details
+            <textarea name="details" placeholder="Tell us what you want to treat and what files you already have available."></textarea>
+          </label>
+          <button class="button button-primary" type="submit">Continue on WhatsApp</button>
+          <p class="form-note">Submitting this form opens WhatsApp with your details prefilled.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">Clinic environment</p>
+        <h2 class="section-title">Selected spaces used across the public treatment pages.</h2>
+        <div class="mini-gallery">
+          <img src="assets/clinic/gallery-lobby.jpg" alt="Velaxa lobby environment">
+          <img src="assets/hair/treatment-room.jpg" alt="Hair treatment room">
+          <img src="assets/dental/room-chair.jpg" alt="Dental treatment room">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div><strong>VELAXA</strong><p>Clinic-style hair transplant and dental care in Istanbul.</p></div>
+      <div class="footer-links"><a href="services.html">Services</a><a href="about.html">About</a><a href="dental-implants.html">Dental Care</a><a href="contact.html">Contact</a></div>
+      <p class="footer-note">WhatsApp: +90 501 036 70 39 | Email: info@velaxa.com</p>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" data-whatsapp-link href="contact.html#assessment">WhatsApp</a>
+
+  <script src="app.js"></script>
+</body>
+</html>
